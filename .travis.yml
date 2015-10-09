@@ -1,11 +1,11 @@
 language: objective-c
 
 osx_image: xcode6.4
-xcode_workspace: HelloWorld/HelloWorld.xcworkspace
+xcode_workspace: ios/HelloWorld/HelloWorld.xcworkspace
 xcode_scheme: HelloWorld
 xcode_sdk: iphoneos8.4
-podfile: HelloWorld/Podfile
-configuration: Release
+# podfile: HelloWorld/Podfile
+# configuration: Release
 
 install:
   - ./deploy-script/go/install.sh
