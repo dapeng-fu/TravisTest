@@ -9,6 +9,8 @@ xcode_sdk: iphoneos8.4
 
 sudo: true
 
+before_install:
+  - export REPO_ROOT=pwd
 install:
   - ./deploy-script/go/install.sh
 
